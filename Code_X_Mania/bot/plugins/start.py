@@ -28,19 +28,19 @@ buttonz=ReplyKeyboardMarkup(
             
             
             
-@StreamBot.on_message(filters.regex("maintainers😎"))
+@StreamBot.on_message(filters.regex(" Owner "))
 async def follow_user(b,m):
     try:
        await b.send_message(chat_id=m.chat.id,text="HELLO",quote=True)
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Coded By [Adarsh Goel](https://github.com/adarsh-goel)",
+                    text="This Bot is Created and Maintained By X4net™",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Developer💻", url=f"https://t.me/adarsh_goel")
+                                InlineKeyboardButton("Developer💻", url=f"https://t.me/itsmejordiofficial")
                             ]
                         ]
                     ),
@@ -48,7 +48,7 @@ async def follow_user(b,m):
                     disable_web_page_preview=True)
             
          
-@StreamBot.on_message(filters.regex("follow❤️"))
+@StreamBot.on_message(filters.regex("UPDATE CH"))
 async def follow_user(b,m):
     try:
        await b.send_message(chat_id=m.chat.id,text="HELLO",quote=True)
@@ -60,7 +60,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("FOLLOW ME", url=f"https://GITHUB.COM/adarsh-goel")
+                                InlineKeyboardButton("FOLLOW ME", url=f"https://t.me/maniaxxxbot")
                             ]
                         ]
                     ),
@@ -112,10 +112,10 @@ async def start(b, m):
                 return
         await StreamBot.send_photo(
             chat_id=m.chat.id,
-            photo ="https://user-images.githubusercontent.com/88939380/137127129-a86fc939-2931-4c66-b6f6-b57711a9eab7.png",
-            caption ="""Hi !
-I am Telegram File to Link Generator Bot with Channel support.
-Send me any file and get a direct download link and streamable link.!""",
+            photo ="https://i.postimg.cc/7PBWd8rC/images.jpg",
+            caption ="""Hi!
+Iam XXX Files Stream Bot, you can use me to stream telegram files in video players 
+Login Password is " xxxmaniavip " """,
             parse_mode="html",
             reply_markup=buttonz)
                                                                                        
@@ -155,7 +155,7 @@ Send me any file and get a direct download link and streamable link.!""",
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ** [ADARSH GOEL](https://t.me/codexmaniabot)",
+                    text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ** [ITSMEJORDIEOFFICIAL](https://t.me/itsmejordiofficial)",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
@@ -205,7 +205,7 @@ Send me any file and get a direct download link and streamable link.!""",
 
 <b> 🖥WATCH  :</b> <i>{}</i>
 
-<b>🚸 Nᴏᴛᴇ : LINK WON'T EXPIRE TILL I DELETE</b>
+<b>🚸 Nᴏᴛᴇ : LINK IS ALIVE TILL MY DEATH</b>
 """
 
         await m.reply_text(
@@ -264,8 +264,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/codexmania")],
-                [InlineKeyboardButton("💥 FOLLOW", url="https://GitHub.com/adarsh-goel")]
+                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/itsmejordiofficial")],
+                [InlineKeyboardButton("💥 FOLLOW", url="https://t.me/maniaxxxbot")]
             ]
         )
     )
